@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <License>MIT</License>
+    <Version>1.0.0</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>JwtCraft</RootNamespace>
+    <AssemblyTitle>JwtCraft</AssemblyTitle>
+    <Description>Library for creating and validating JWT in C#</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Kaiky Gabriel Alves</Authors>
+    <Company>kaiky</Company>
+    <PackageProjectUrl>https://github.com/Kaikygabriel/JwtCraft</PackageProjectUrl>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
+  </ItemGroup>
+
+</Project>
