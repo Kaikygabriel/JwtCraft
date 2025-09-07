@@ -6,8 +6,7 @@
     <Nullable>enable</Nullable>
     
     <License>MIT</License>
-    <Version>1.0.0</Version>
-    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.1.1</Version>
     <RootNamespace>JwtCraft</RootNamespace>
     <AssemblyTitle>JwtCraft</AssemblyTitle>
     <Description>Library for creating and validating JWT in C#</Description>
@@ -15,7 +14,7 @@
     <Authors>Kaiky Gabriel Alves</Authors>
     <Company>kaiky</Company>
     <PackageProjectUrl>https://github.com/Kaikygabriel/JwtCraft</PackageProjectUrl>
-
+    <PackageTags>JwtCraft</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
