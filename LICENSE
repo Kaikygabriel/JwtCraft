@@ -1,5 +1,6 @@
-MIT License
+Copyright 2025 Kaiky Gabriel Alves
 
+<<<<<<< HEAD
 Copyright (c) 2025 Kaiky Gabriel Alves
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -17,3 +18,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+=======
+Licenciado sob a Licença Apache, Versão 2.0 (a "Licença");
+você não pode usar este arquivo exceto em conformidade com a Licença.
+Você pode obter uma cópia da Licença em
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+A menos que seja exigido pela lei aplicável ou acordado por escrito, 
+o software distribuído sob a Licença é distribuído "NO ESTADO EM QUE SE ENCONTRA",
+SEM GARANTIAS OU CONDIÇÕES DE QUALQUER TIPO, expressas ou implícitas.
+Consulte a Licença para obter as permissões e o idioma específico que rege 
+as limitações sob a Licença.
+>>>>>>> ff2a4fd (Atualiza licença para Apache 2.0)
