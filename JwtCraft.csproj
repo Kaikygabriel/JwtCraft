@@ -17,7 +17,6 @@
     <PackageTags>JwtCraft</PackageTags>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>JwtCraftIcon.png</PackageIcon>
 
   </PropertyGroup>
 
