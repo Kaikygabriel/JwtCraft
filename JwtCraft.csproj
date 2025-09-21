@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     
     <License>MIT</License>
-    <Version>1.1.2</Version>
+    <Version>1.1.3</Version>
     <RootNamespace>JwtCraft</RootNamespace>
     <AssemblyTitle>JwtCraft</AssemblyTitle>
     <Description>Library for creating and validating JWT in C#</Description>
@@ -17,10 +17,12 @@
     <PackageTags>JwtCraft</PackageTags>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>JwtCraftIcon.png</PackageIcon>
 
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="LogoJwtCraftM.png" Pack="true" PackagePath="\"/>
     <None Include="README.md" Pack="true" PackagePath="" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
