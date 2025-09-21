@@ -48,8 +48,8 @@ public class JwtService : ITokenService
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(bytesKey)
         }, out var secretToken);
-        
-        if (secretToken is not JwtSecurityToken jwt || 
+
+        if (secretToken is not JwtSecurityToken jwt ||
             !jwt.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
         {
             throw new SecurityTokenException("Token invalid");
@@ -57,3 +57,4 @@ public class JwtService : ITokenService
         return claimsPrincipal;
     }
 }
+// --- IGNORE ---
