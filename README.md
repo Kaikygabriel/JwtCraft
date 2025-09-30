@@ -1,8 +1,5 @@
 # JwtCraft
 
-[![NuGet](https://www.nuget.org/packages/JwtCraft)
-
-
 JwtCraft is a simple way to create and validate Jwt tokens.
 ---
 
